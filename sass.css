@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+  padding-bottom: 13%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+.grid_container {
+  width: 98%;
+  max-width: 900px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.3333%;
+}
+
+.col-2 {
+  width: 16.6666%;
+}
+
+.col-3 {
+  width: 24.9999%;
+}
+
+.col-4 {
+  width: 33.3332%;
+}
+
+.col-5 {
+  width: 41.6665%;
+}
+
+.col-6 {
+  width: 49.9998%;
+}
+
+.col-7 {
+  width: 58.3331%;
+}
+
+.col-8 {
+  width: 66.6664%;
+}
+
+.col-9 {
+  width: 74.9997%;
+}
+
+.col-10 {
+  width: 83.333%;
+}
+
+.col-11 {
+  width: 91.6663%;
+}
+
+.col-12 {
+  width: 99.9996%;
+}
+
+.row:before,
+.row:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+[class*='col-'] {
+  float: left;
+  border: 1px solid red;
+  height: 100%;
+  min-height: 100px;
+}
+
+/* napisy */
+.main_text {
+  border: 2px solid #FFEB72;
+  padding-bottom: 5%;
+}
+
+/* header class main :) */
+
+/*# sourceMappingURL=sass.css.map */

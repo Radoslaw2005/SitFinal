@@ -1,0 +1,75 @@
+//@import 'reset';
+//@import 'fonts';
+////@import 'variables';
+////@import 'mixins';
+////@import 'layout';
+
+*{
+  box-sizing: border-box;
+}
+
+
+.main {
+
+  position: relative;
+  padding-bottom: 13%;
+  border: 2px solid #28ffae;
+  width: 100%;
+  //background: url("images/foto1.jpg") no-repeat center center ;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+
+}
+
+
+.grid_container {
+  width:98%;
+  max-width: 900px;
+  border: 1px solid red;
+  margin: 0 auto;
+  //margin-right: 10%;
+}
+//.main_text {
+//  max-width: 1260px;
+//  width: 60%;
+//  margin: 0 auto;
+//  position: relative;
+//  letter-spacing: 1px;
+//  font-family: Existancelight,sans-serif;
+//  color: #ffffff;
+//}
+
+
+$new_width: 8.3333%;
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    width: $new_width * $i;
+  }
+}
+
+.row:before,
+.row:after {
+  display : block;
+  clear: both;
+  content: "";
+}
+[class*='col-']{
+  float: left;
+  border:1px solid red;
+  height:100%;
+  min-height: 100px;
+
+
+}
+
+
+/* napisy */
+
+.main_text {
+  border:2px solid #FFEB72;
+  padding-bottom: 5%;
+}
+
+/* header class main :) */
