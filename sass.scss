@@ -8,11 +8,15 @@
   box-sizing: border-box;
 }
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', 'sans-serif';
+}
 .main {
 
   position: relative;
-  padding-bottom: 13%;
+  //padding-bottom: 13%;
   border: 2px solid #ff0909;
   width: 100%;
   //background: url("images/foto1.jpg") no-repeat center center ;
@@ -31,6 +35,7 @@
   //font: inherit;
   vertical-align: baseline;
   display: inline;
+  clear:both;
 
 
 }
@@ -39,9 +44,9 @@
 }
 
 .grid_container {
-  width:98%;
-  max-width: 900px;
-  border: 1px solid red;
+  width: 99%;
+  max-width: 1600px;
+  border: 1px solid #FF00EB;
   margin: 0 auto;
   //margin-right: 10%;
 }
@@ -83,8 +88,20 @@ $new_width: 8.3333%;
 /* napisy */
 
 .main_text {
+  li a {
+    color: #ffffff;
+    display: inline-block;
+  }
+  .right{
+    display: inline;
+    position: absolute;
+    float: right;
+  }
   border:2px solid #FFEB72;
   padding-bottom: 5%;
+  font-weight: 700;
+  text-transform:uppercase;
+  color: #ffffff;
 }
 
 .left {
@@ -94,3 +111,65 @@ $new_width: 8.3333%;
 }
 
 /* header class main :) */
+
+
+ul li {
+  display: inline-block;
+  position: relative;
+  line-height: 55px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  border: 1px solid blue;
+  margin-right: -100%;
+  /* margin-bottom: 173%; */
+  margin-left: -108%;
+
+  margin-top: -6%;
+}
+
+
+ul li a{
+
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+
+}
+
+a:link {
+  text-decoration: none;
+  color:whitesmoke;
+}
+
+a:hover {
+  color:#00FF00;
+}
+a:visited {
+  color: grey;
+}
+/*przyciski na gornym czarnym pasku*/
+
+ul li ul.dropdown{
+  min-width: 250px; /* Set width of the dropdown */
+  background: #000000;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  right: 50px;
+
+
+}
+
+ul li ul.dropdown li{
+  display: inline-block;
+
+}
+
+
+.dropdown {
+  display: inline-block;
+  position: absolute;
+}
