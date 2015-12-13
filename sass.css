@@ -195,7 +195,6 @@ ul li {
 
 ul {
   list-style: none;
-  border: 1px solid blue;
   margin-right: -100%;
   /* margin-bottom: 173%; */
   margin-left: -108%;
@@ -234,11 +233,24 @@ ul li ul.dropdown {
   display: none;
   position: absolute;
   z-index: 999;
-  right: 50px;
+  max-width: 50%;
+}
+
+ul li ul.dropdown2 {
+  background: #000000;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  max-width: 157%;
 }
 
 ul li:hover ul.dropdown {
-  display: block;
+  display: table;
+  /*funkcja rozwijania menu dropdown*/
+}
+
+ul li:hover ul.dropdown2 {
+  display: table;
   /*funkcja rozwijania menu dropdown*/
 }
 
