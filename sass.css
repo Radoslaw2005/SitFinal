@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
   License: none (public domain)
 */
@@ -184,6 +185,10 @@ html, body {
   margin: 1% 1% 1% 1%;
 }
 
+.left div span {
+  color: #26cbad;
+}
+
 /* header class main :) */
 ul li {
   display: inline-block;
@@ -228,7 +233,7 @@ a:visited {
 /*przyciski na gornym czarnym pasku*/
 ul li ul.dropdown {
   min-width: 250px;
-  /* Set width of the dropdown */
+  /* Set width of the dropdown  ustawienie rozmiarˇw pierwszego wysuwajacego sie menu*/
   background: #000000;
   display: none;
   position: absolute;
@@ -252,6 +257,10 @@ ul li:hover ul.dropdown {
 ul li:hover ul.dropdown2 {
   display: table;
   /*funkcja rozwijania menu dropdown*/
+}
+
+.top {
+  color: white;
 }
 
 /*# sourceMappingURL=sass.css.map */
