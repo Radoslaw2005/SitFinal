@@ -200,7 +200,78 @@ ul li:hover ul.dropdown2 {
   display:table ;   /*funkcja rozwijania menu dropdown*/
 }
 
-.top {
+
+
+/*sekcja krzes³a */
+/*sekcja krzes³a */
+/*sekcja krzes³a */
+
+.arrow a{
   color:white;
+
+}
+.signSpecialL {
+  font-size: 400%;
+  padding-right: 50%;
+  color: #26cbad;
+
+}
+.signSpecialR {
+  font-size: 400%;
+  padding-left: 50%;
+  color: #26cbad;
+
+}
+//.signSpecLeft{
+//  font-size: 400%;
+//}
+.bigblackchair {
+  background-color: #d2d1d9; /*wstawic tu gradient zmaiast szarosci*/;
+}
+//.blackchair {
+//  background-size: 120%;
+//}
+.main_text {
+  h1 {
+    font-weight: 700;
+    font-size: 211%;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 8%;
+    span {
+      color: #26cbad;
+    }
+
+  }
+}
+.main_text {
+  .Lorem {
+    color: #000000;
+    text-transform: none;
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 111%;
+    letter-spacing: 0.8px;
+  }
+
+}
+.seemore {
+  color: #ffffff;
+  font-weight: 400;
+  font-size:148%;
+  padding-top: 2%;
+  //border: 1px solid yellow;
+  background-color: #26cbad;
+  padding-bottom: 2%;
+  //text-transform: none;
+  //border: 3px solid #ac8ef4;
+  //margin: 5%;
+  border-radius:10%;
+  max-width: 65%;
+  text-align: center;
+  a {
+    color: #ffffff;
+  }
+
 
 }
