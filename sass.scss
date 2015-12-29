@@ -125,6 +125,8 @@ margin: 1% 1% 1% 1%;
 }
 
 /* header class main :) */
+/* header class main :) */
+/* header class main :) */
 
 
 
@@ -174,6 +176,8 @@ a:visited {
 }
 
 /*przyciski na gornym czarnym pasku*/
+/*przyciski na gornym czarnym pasku*/
+/*przyciski na gornym czarnym pasku*/
 
 ul li ul.dropdown{
   min-width: 250px; /* Set width of the dropdown  ustawienie rozmiarów pierwszego wysuwajacego sie menu*/
@@ -201,10 +205,10 @@ ul li:hover ul.dropdown2 {
 }
 
 
+/*sekcja krzes³a */
+/*sekcja krzes³a */
+/*sekcja krzes³a */
 
-/*sekcja krzes³a */
-/*sekcja krzes³a */
-/*sekcja krzes³a */
 
 .arrow a{
   color:white;
@@ -226,7 +230,7 @@ ul li:hover ul.dropdown2 {
 //  font-size: 400%;
 //}
 .bigblackchair {
-  background-color: #d2d1d9; /*wstawic tu gradient zmaiast szarosci*/;
+  background-color: #d2d1d9; /*wstawic tu gradient zamiast szarosci*/;
 }
 //.blackchair {
 //  background-size: 120%;
@@ -259,19 +263,52 @@ ul li:hover ul.dropdown2 {
   color: #ffffff;
   font-weight: 400;
   font-size:148%;
-  padding-top: 2%;
+  padding-top: 3%;
   //border: 1px solid yellow;
   background-color: #26cbad;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
   //text-transform: none;
   //border: 3px solid #ac8ef4;
   //margin: 5%;
-  border-radius:10%;
+  border-radius:12%;
   max-width: 65%;
   text-align: center;
   a {
     color: #ffffff;
   }
 
+}
 
+/*trzeci BIALY akapit z obrazkami trzema ok 2/3 tego  z szarym gradient*/
+/*trzeci BIALY akapit z obrazkami trzema ok 2/3 tego  z szarym gradient*/
+/*trzeci BIALY akapit z obrazkami trzema ok 2/3 tego  z szarym gradient*/
+
+.chairs {
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ffffff;
+  border: 2px solid gray;
+}
+
+
+.chair1 {
+  float: left;
+  max-height: 270px;
+  padding-top: 1%;
+  width: 90%;
+  /* margin: auto; */
+  margin-top: 4%;
+  margin-left: 0%;
+  margin-bottom: 15%;
+}
+
+.chair2 {
+  float:left;
+  max-height: 350px;
+  /*margin:auto;*/
+  margin-top: 2%;
+  margin-right:2%;
+  margin-left:2%;
+  width: 90%;
+  /*margin-bottom: 50%;*/
 }
