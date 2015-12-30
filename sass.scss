@@ -293,22 +293,53 @@ ul li:hover ul.dropdown2 {
 
 .chair1 {
   float: left;
-  max-height: 270px;
+  max-height: 299px;
   padding-top: 1%;
-  width: 90%;
+  width: 93%;
   /* margin: auto; */
   margin-top: 4%;
-  margin-left: 0%;
-  margin-bottom: 15%;
+  margin-left: 3%;
+  margin-bottom: 22%;
 }
 
 .chair2 {
-  float:left;
-  max-height: 350px;
-  /*margin:auto;*/
-  margin-top: 2%;
-  margin-right:2%;
-  margin-left:2%;
-  width: 90%;
-  /*margin-bottom: 50%;*/
+  float: left;
+  max-height: 299px;
+  padding-top: 1%;
+  width: 93%;
+  /* margin: auto; */
+  margin-top: 4%;
+  margin-left: 1%;
+  margin-bottom: 22%;
+}
+.empty {
+
+}
+.main_text {
+  .Lorem {
+    .allinputs {
+      text-align: left;
+      font-size: 95%;
+      text-transform: lowercase;
+      color: #000000;
+    }
+    color: #000000;
+    text-transform: none;
+    padding-top: 5%;
+    font-weight: 400;
+    font-size: 111%;
+    letter-spacing: 0.8px;
+  }
+}
+.allinputs {
+  span {
+    text-transform: uppercase;
+    color: #000000;
+  }
+}
+.line{
+  //border: 1px solid gray;
+  background-color: #26cbad;
+  max-width: 44%;
+  padding: auto;
 }
