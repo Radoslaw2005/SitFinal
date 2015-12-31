@@ -354,30 +354,62 @@ ul li:hover ul.dropdown2 {
   margin-bottom: 22%;
 }
 
-.main_text .Lorem {
+.empty1 {
+  border: 1px solid #d2d1d9;
+  background-color: transparent;
+  width: 100%;
+  max-height: 5px;
+  padding-top: 5%;
+}
+
+.main_text2 {
+  margin-top: 2%;
+}
+.main_text2 .Lorem {
   color: #000000;
   text-transform: none;
   padding-top: 5%;
   font-weight: 400;
   font-size: 111%;
   letter-spacing: 0.8px;
-}
-.main_text .Lorem .allinputs {
   text-align: left;
-  font-size: 95%;
-  text-transform: lowercase;
+}
+.main_text2 .Lorem .allinputs {
+  text-align: left;
+  font-size: 120%;
   color: #000000;
+  padding-top: 5%;
+  padding-left: 3%;
 }
 
-.allinputs span {
-  text-transform: uppercase;
+.allinputs {
   color: #000000;
+  font-weight: 700;
+  font-size: 105%;
 }
 
 .line {
   background-color: #26cbad;
   max-width: 44%;
-  padding: auto;
+  padding-bottom: 2%;
+  height: 0.5em;
+  margin-left: 1em;
+  margin-top: -0.8em;
+}
+
+.aka1 {
+  padding-left: 3%;
+  padding-top: 5%;
+  letter-spacing: 1px;
+  color: #808080;
+}
+
+.aka2 {
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 7%;
+  letter-spacing: 1px;
+  color: #808080;
 }
 
 /*# sourceMappingURL=sass.css.map */

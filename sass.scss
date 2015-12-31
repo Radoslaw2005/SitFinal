@@ -312,16 +312,23 @@ ul li:hover ul.dropdown2 {
   margin-left: 1%;
   margin-bottom: 22%;
 }
-.empty {
+.empty1 {
+  border: 1px solid #d2d1d9;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  max-height: 5px;
+  padding-top: 5%;
 
 }
-.main_text {
+.main_text2 {
+  margin-top: 2%;
   .Lorem {
     .allinputs {
       text-align: left;
-      font-size: 95%;
-      text-transform: lowercase;
+      font-size: 120%;
       color: #000000;
+      padding-top: 5%;
+      padding-left: 3%;
     }
     color: #000000;
     text-transform: none;
@@ -329,17 +336,36 @@ ul li:hover ul.dropdown2 {
     font-weight: 400;
     font-size: 111%;
     letter-spacing: 0.8px;
+    text-align: left;
+
   }
 }
 .allinputs {
-  span {
-    text-transform: uppercase;
-    color: #000000;
-  }
+    //text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+  font-size: 105%;
+
 }
 .line{
-  //border: 1px solid gray;
   background-color: #26cbad;
   max-width: 44%;
-  padding: auto;
+  padding-bottom: 2%;
+  height: 0.5em;
+  margin-left: 1em;
+  margin-top: -0.8em;
+}
+
+.aka1 {
+  padding-left: 3%;
+  padding-top: 5%;
+  letter-spacing: 1px;
+  color: #808080;
+}
+.aka2 {
+  padding-left: 3%;
+  padding-top: 3%;
+  padding-bottom: 7%;
+  letter-spacing: 1px;
+  color: #808080;
 }
